@@ -1,3 +1,12 @@
+/**
+ * © 2026 Chep-koech (https://github.com/Chep-koech).
+ * Part of Prep.ai. All rights reserved.
+ *
+ * This source is published for portfolio viewing purposes only. No
+ * permission is granted to copy, modify, redistribute, or use any
+ * portion of this code in your own project without explicit written
+ * permission from the author.
+ */
 import { NextRequest, NextResponse } from "next/server";
 import { suggestTopics } from "@/lib/ai";
 import { InterviewConfig, MAX_JD_LENGTH } from "@/lib/types";
